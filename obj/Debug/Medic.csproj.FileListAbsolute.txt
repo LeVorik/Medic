@@ -33,3 +33,5 @@ C:\Users\brogo\source\repos\Medic\Medic\obj\Debug\ModalViews\PatientDialog.baml
 C:\Users\brogo\source\repos\Medic\Medic\obj\Debug\ModalViews\AppointmentDialog.g.cs
 C:\Users\brogo\source\repos\Medic\Medic\obj\Debug\ModalViews\AppointmentDialog.baml
 C:\Users\brogo\source\repos\Medic\Medic\obj\Debug\App.baml
+C:\Users\brogo\source\repos\Medic\Medic\bin\Debug\MedicDB.mdf
+C:\Users\brogo\source\repos\Medic\Medic\bin\Debug\MedicDB_log.ldf
