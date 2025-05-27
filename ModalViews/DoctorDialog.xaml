@@ -1,0 +1,36 @@
+﻿<Window x:Class="Medic.DoctorDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Medic"
+        mc:Ignorable="d"
+        Title="Доктор" Height="250" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="ФИО:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center"/>
+        <TextBox x:Name="FullNameBox" Grid.Row="0" Grid.Column="1" Margin="5"/>
+
+        <TextBlock Text="Специальность:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center"/>
+        <TextBox x:Name="SpecialtyBox" Grid.Row="1" Grid.Column="1" Margin="5"/>
+
+        <TextBlock Text="Кабинет:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center"/>
+        <TextBox x:Name="RoomBox" Grid.Row="2" Grid.Column="1" Margin="5"/>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.ColumnSpan="2" Margin="0,20,0,0" HorizontalAlignment="Right">
+            <Button Content="OK" Width="80" Margin="5" Click="Ok_Click"/>
+            <Button Content="Отмена" Width="80" Margin="5" Click="Cancel_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
