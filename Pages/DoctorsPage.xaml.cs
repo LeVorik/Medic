@@ -68,14 +68,34 @@ namespace Medic.Pages
 
         private void Delete_Click(object sender, RoutedEventArgs e)
         {
-            if (DoctorsDataGrid.SelectedItem is Doctors doctor)
+            Doctors del_doctor = DoctorsDataGrid.SelectedItem as Doctors;
+            if (del_doctor is Doctors doctor)
             {
-                if (MessageBox.Show("Удалить врача?", "Подтверждение", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+                if (MessageBox.Show("Удалить врача?", "Подтверждение", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.No) return;
+
+                if (gVars.entities.Appointments.Any(x => x.DoctorId == del_doctor.Id))
                 {
-                    gVars.entities.Doctors.Remove(doctor);
-                    gVars.entities.SaveChanges();
-                    LoadDoctors();
+                    MessageBox.Show("У врача имеется запись в журнале", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
                 }
+
+                gVars.entities.Doctors.Remove(doctor);
+                gVars.entities.SaveChanges();
+                LoadDoctors();
+            }
+        }
+
+        private void OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (DoctorsDataGrid.SelectedItem != null)
+            {
+                btn_Edit.IsEnabled = true;
+                btn_Delete.IsEnabled = true;
+            }
+            else
+            {
+                btn_Edit.IsEnabled = false;
+                btn_Delete.IsEnabled = false;
             }
         }
     }

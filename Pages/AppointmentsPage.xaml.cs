@@ -83,5 +83,19 @@ namespace Medic.Pages
                 }
             }
         }
+
+        private void OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (AppointmentsDataGrid.SelectedItem != null)
+            {
+                btn_Edit.IsEnabled = true;
+                btn_Delete.IsEnabled = true;
+            }
+            else
+            {
+                btn_Edit.IsEnabled = false;
+                btn_Delete.IsEnabled = false;
+            }
+        }
     }
 }

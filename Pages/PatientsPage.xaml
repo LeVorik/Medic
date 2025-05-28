@@ -20,7 +20,8 @@
                   SelectionMode="Single"
                   SelectionUnit="FullRow"
                   Grid.Row="0"
-                  Margin="0,0,0,10">
+                  Margin="0,0,0,10"
+                  SelectionChanged="OnSelectionChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="Auto"/>
                 <DataGridTextColumn Header="ФИО" Binding="{Binding FullName}" Width="*"/>
@@ -35,8 +36,8 @@
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="1">
             <Button Content="Добавить" Click="Add_Click" Margin="5"/>
-            <Button Content="Редактировать" Click="Edit_Click" Margin="5"/>
-            <Button Content="Удалить" Click="Delete_Click" Margin="5"/>
+            <Button x:Name="btn_Edit" Content="Редактировать" Click="Edit_Click" Margin="5" IsEnabled="False"/>
+            <Button x:Name="btn_Delete" Content="Удалить" Click="Delete_Click" Margin="5" IsEnabled="False"/>
         </StackPanel>
     </Grid>
 </Page>

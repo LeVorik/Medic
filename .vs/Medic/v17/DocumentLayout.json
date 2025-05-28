@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\Medic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8AE667-20EC-4002-9FBD-46E5F43100D7}|Medic.csproj|c:\\projects\\medic\\modalviews\\patientdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA8AE667-20EC-4002-9FBD-46E5F43100D7}|Medic.csproj|solutionrelative:modalviews\\patientdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientDialog.xaml",
+              "DocumentMoniker": "C:\\Projects\\Medic\\ModalViews\\PatientDialog.xaml",
+              "RelativeDocumentMoniker": "ModalViews\\PatientDialog.xaml",
+              "ToolTip": "C:\\Projects\\Medic\\ModalViews\\PatientDialog.xaml",
+              "RelativeToolTip": "ModalViews\\PatientDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T08:16:17.879Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

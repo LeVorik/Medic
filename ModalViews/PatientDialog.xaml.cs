@@ -52,13 +52,13 @@ namespace Medic.ModalViews
         {
             if (string.IsNullOrWhiteSpace(FullNameBox.Text) || BirthDatePicker.SelectedDate == null)
             {
-                MessageBox.Show("ФИО и дата рождения обязательны.");
+                MessageBox.Show("ФИО и дата рождения обязательны.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 
             if (MaleRadio.IsChecked == false && FemaleRadio.IsChecked == false)
             {
-                MessageBox.Show("Выберите пол.");
+                MessageBox.Show("Выберите пол.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 

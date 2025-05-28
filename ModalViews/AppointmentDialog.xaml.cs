@@ -52,7 +52,7 @@ namespace Medic.ModalViews
 
             if (patient == null || doctor == null || DatePicker.SelectedDate == null)
             {
-                MessageBox.Show("Заполните все поля.");
+                MessageBox.Show("Заполните все поля.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 

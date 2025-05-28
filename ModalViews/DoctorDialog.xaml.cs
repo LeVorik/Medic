@@ -36,7 +36,7 @@ namespace Medic
         {
             if (string.IsNullOrWhiteSpace(FullNameBox.Text))
             {
-                MessageBox.Show("ФИО не может быть пустым.");
+                MessageBox.Show("ФИО не может быть пустым.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 
