@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Projects\\Medic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA8AE667-20EC-4002-9FBD-46E5F43100D7}|Medic.csproj|c:\\projects\\medic\\modalviews\\patientdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BA8AE667-20EC-4002-9FBD-46E5F43100D7}|Medic.csproj|solutionrelative:modalviews\\patientdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{BA8AE667-20EC-4002-9FBD-46E5F43100D7}|Medic.csproj|c:\\projects\\medic\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BA8AE667-20EC-4002-9FBD-46E5F43100D7}|Medic.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PatientDialog.xaml",
-              "DocumentMoniker": "C:\\Projects\\Medic\\ModalViews\\PatientDialog.xaml",
-              "RelativeDocumentMoniker": "ModalViews\\PatientDialog.xaml",
-              "ToolTip": "C:\\Projects\\Medic\\ModalViews\\PatientDialog.xaml",
-              "RelativeToolTip": "ModalViews\\PatientDialog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-28T08:16:17.879Z",
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Projects\\Medic\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Projects\\Medic\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-28T12:49:10.339Z",
               "EditorCaption": ""
             }
           ]
